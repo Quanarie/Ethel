@@ -25,4 +25,6 @@ public class EnemyMoveDirection : IMoveDirection
             Vertical = playerPos.y - transform.position.y;
         }
     }
+
+    public float AttackDistance { get => attackDistance; }
 }

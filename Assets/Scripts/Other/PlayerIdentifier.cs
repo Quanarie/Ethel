@@ -6,8 +6,12 @@ public class PlayerIdentifier : MonoBehaviour
 {
     public static PlayerIdentifier Instance;
 
+    public PlayerHealth playerHealth;
+
     private void Start()
     {
         Instance = this;
+
+        playerHealth = GetComponent<PlayerHealth>();
     }
 }

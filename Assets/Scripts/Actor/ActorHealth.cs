@@ -23,6 +23,8 @@ public abstract class ActorHealth : MonoBehaviour
 
             Death();
         }
+
+        print("received" + damageAmount);
     }
 
     protected virtual void Death() { }
