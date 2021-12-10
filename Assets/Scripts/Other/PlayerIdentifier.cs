@@ -6,11 +6,8 @@ public class PlayerIdentifier : MonoBehaviour
 {
     public static PlayerIdentifier Instance;
 
-    [HideInInspector] public GameObject Player;
-
     private void Start()
     {
         Instance = this;
-        Player = this.gameObject;
     }
 }
